@@ -1,0 +1,52 @@
+* {
+	margin: 3px 0px 3px 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	width: 100%;
+	overflow: hidden;
+}
+
+.header li, .footer li {
+	display: inline;
+	float: right;
+	margin-left: 5px;
+}
+
+.content {
+	display: block;
+	position: absolute;
+	float: none;
+}
+
+.footer {
+	background-color: #f2f2f2;
+	position: absolute;
+	bottom: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+#footer_left {
+	float: left;
+}
+
+#footer_left ul {
+	padding-left: 3px;
+}
+
+#footer_right {
+	float: right;
+}
+
+ul {
+	margin-right: 10px;
+}
+
+li {
+	font-size: 1em;
+}
